@@ -1,0 +1,7 @@
+app_prueba:
+    path: /
+    defaults: { _controller: AppBundle:Default:pruebas }
+    
+app_index:
+    path: /index
+    defaults: { _controller: AppBundle:Default:index }

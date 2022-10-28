@@ -1,0 +1,11 @@
+task_show:
+    path: /show
+    defaults: { _controller: AppBundle:Task:show }
+
+task_new:
+    path: /new
+    defaults: { _controller: AppBundle:Task:new }
+    
+task_update:
+    path: /update
+    defaults: { _controller: AppBundle:Task:update }

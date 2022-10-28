@@ -1,0 +1,13 @@
+   
+YML_DEF:
+    resource: "@AppBundle/Resources/config/routing/default.yml"
+    prefix: /
+    
+YML_USER:
+    resource: "@AppBundle/Resources/config/routing/user.yml"
+    prefix: /user
+
+    
+YML_TASK:
+    resource: "@AppBundle/Resources/config/routing/task.yml"
+    prefix: /task
